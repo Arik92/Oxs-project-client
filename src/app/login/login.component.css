@@ -1,0 +1,20 @@
+.login-container {
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    top: 30%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.submit-btn {
+    align-self: center;
+}

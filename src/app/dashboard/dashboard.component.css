@@ -1,0 +1,33 @@
+.nav-container {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    border-bottom: 1px solid black;
+    color: #ffa3ac;
+    background-color: #005d6c;
+}
+.sidebar-container {
+    position: absolute;
+    height: 90%;
+    width: 20%;
+    top: 10%;
+    left: 0;
+    display: flex;
+    border-right: 1px solid black;
+    background-color: #ffa3ac;
+    color: #00043c;
+
+}
+.content-container {
+    position: absolute;
+    height: 90%;
+    width: 80%;
+    top: 10%;
+    left: 20%;
+    display: flex;
+    background-color: #00c9b1;
+    color: #00043c;
+}

@@ -1,0 +1,12 @@
+.side-list {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.list-link {
+    margin: 10px 0;
+}

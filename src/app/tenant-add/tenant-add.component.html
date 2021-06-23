@@ -1,0 +1,15 @@
+<div class="add-container">
+  <div class="header"><h3>Add Tenant</h3></div>
+  <form class="form" #f="ngForm" (ngSubmit)="addTenant(f)">
+    <label for="name">Tenant Name:</label>
+    <input id="name" type="text" name="name" ngModel>
+
+    <label for="phone">Tenant Phone:</label>
+    <input id="phone" type="text" name="phone" ngModel>
+    <label for="address">Tenant Address:</label>
+    <input id="address" type="text" name="address" ngModel>
+    <label for="debt">Current Debt:(If Irrelevant, leave empty)</label>
+    <input id="debt" type="text" name="debt" placeholder="0" ngModel>
+    <button class="submit-btn">Submit</button>
+  </form>
+</div>

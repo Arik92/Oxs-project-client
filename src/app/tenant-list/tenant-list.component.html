@@ -1,0 +1,16 @@
+<div class="list-container">
+  <div class="controls-container">   
+    <ul class="filter-controls">
+      <li>Filter:</li>
+      <li *ngFor="let option of filterOptions"><button (click)="changeFilter(option)">{{option}}</button></li>
+      <li>
+        <input type="text" placeholder="enter tenant name" name="query" [(ngModel)]="searchQuery"/>
+      </li>
+    </ul>
+  </div>
+  <div class="list-content-container">
+    <div *ngFor="let tenant of displayList;let i=index">
+      <app-tenant-card [tenant]="tenant"></app-tenant-card>
+      </div>
+  </div>
+</div>

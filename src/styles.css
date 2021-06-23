@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /* override default angular/browser css*/
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #00c9b1;
+    color: #00043c;    
+}
+button {
+    width:80px;
+    height:40px;
+}
+a {
+    text-decoration: none;
+}

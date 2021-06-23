@@ -1,0 +1,15 @@
+<div class="add-container">
+    <div class="header"><h3>Update Tenant Details</h3></div>
+    <form class="form" #f="ngForm" (ngSubmit)="updateTenant()">
+      <label for="name">Tenant Name:</label>
+      <input id="name" type="text" name="name" [(ngModel)]="tenant.name">
+  
+      <label for="phone">Tenant Phone:</label>
+      <input id="phone" type="text" name="phone" [(ngModel)]="tenant.phone_number">
+      <label for="address">Tenant Address:</label>
+      <input id="address" type="text" name="address" [(ngModel)]="tenant.address">
+      <label for="debt">Current Debt:(If Irrelevant, leave empty)</label>
+      <input id="debt" type="text" placeholder="0" name="debt" [(ngModel)]="tenant.debt">
+      <button class="submit-btn">Submit</button>
+    </form>
+  </div>

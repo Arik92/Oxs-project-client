@@ -1,0 +1,12 @@
+<div *ngIf="tenant" class="card-container"> 
+  <div class="tenant-details">            
+    <div class="title">Name: {{tenant.name}}</div>    
+    <div class="title">Phone: {{tenant.phone_number}}</div>    
+    <div class="title">Address: {{tenant.address}}</div>    
+    <div class="title">Debt: {{tenant.debt}}</div>    
+  </div>
+  <div class="button-container">
+    <button class="edit" (click)="editTenant()">Edit</button>
+    <button class="delete" (click)="deleteTenant()">Delete</button>
+  </div>
+</div>
